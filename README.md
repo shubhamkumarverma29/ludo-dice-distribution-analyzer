@@ -13,6 +13,51 @@ gcc ludo_dice_analyzer.c -o ludo -lm
 <br>
 How to Run
 <br>
+An example on terminal
+<br>
+$ gcc ludo_dice_analyzer.c -o ludo -lm
+<br>
+$ ./ludo
+<br>
+
+🎲 LUDO DICE DISTRIBUTION ANALYZER 🎲
+<br>
+=====================================
+<br>
+Simulating 1000000 rolls of two dice...
+<br>
+
+Sum   Count   Experimental(%)   Theoretical(%)
+<br>
+------------------------------------------------
+<br>
+ 2     27645          2.76          2.78
+ <br>
+ 3     55369          5.54          5.56
+ <br>
+ 4    83369          8.33          8.33
+ <br>
+ 5    110832         11.08         11.11
+ <br>
+ 6    138891         13.89         13.89
+ <br>
+ 7    166747         16.67         16.67
+ <br>
+ 8    139064         13.91         13.89
+ <br>
+ 9    110933         11.09         11.11
+ <br>
+10     83313          8.33          8.33
+<br>
+11     55282          5.53          5.56
+<br>
+12     27715          2.77          2.78
+<br>
+------------------------------------------------
+<br>
+Analysis complete!
+<br>
+
 After successful compilation, run the executable using:
 <br>
 ./ludo
